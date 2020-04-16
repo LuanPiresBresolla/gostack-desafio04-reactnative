@@ -30,12 +30,6 @@ export default function App() {
     repositories[index] = response.data;
 
     setRepositories([...repositories]);
-    
-    // const newRepositories = repositories.filter(repo => repo.id !== id);
-
-    // newRepositories.push(response.data);
-
-    // setRepositories(newRepositories);
   }
 
   return (
